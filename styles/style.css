@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+.azeret-mono {
+  
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* nav or btn style */
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 70px 30px;
+}
+.btn-head{
+    box-sizing: border-box;
+    border: 2px solid #162c16;
+    border-radius: 5px;
+    opacity: 0. 8;
+    padding: 12px;
+    font-weight: 600;
+
+}
+/* Banner style */
+.banner{
+ 
+    background-image: url(../assets/Hero-bg.png);
+    height: 612px;
+  
+}
+.banner-container{
+    width: 912px;
+    margin:0 auto ; 
+
+} 
+.banner-profile img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-header{
+    
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 68px;
+}   
+.banner-description{
+  
+    margin: 24px 0px;
+    font-size: 15px;
+    opacity: 0.9;
+
+}
+.btn-parimary{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px;
+}
+.btn{
+   display: flex;
+    margin: 0 auto;
+}
+ .btn-contact{
+    padding: 16px;
+    margin: 0px auto;
+    
+    border-radius: 8px;
+    color: white;
+    background: rgb(13, 19, 33);
+   
+}
+
+/* Devlopment part style */
+.development-title{
+    text-align: center;
+    padding-top: 50px;
+}
+.border{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 80px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.development-description{
+    
+    width: 912px;
+    margin:0 auto ;
+    font-size: 20px;
+ 
+}
+.text-description{
+    width: 912px;
+   
+}
+.dev-btn{
+    padding: 10px;
+}
+
+/* Inspiration-title style */
+.Inspiration-title{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 50px;
+}
+.Inspiration-description{
+    width: 912px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* card-title style */
+.card-heading{
+    padding-top: 20px;
+    text-align: center;
+}
+.card-description{
+    width: 912px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    padding: 70px;
+    gap: 20px;
+
+}
+.card-style-1{
+    background-color:#FFF6F4 ;
+    padding: 0px 5px;
+    border-radius:16px ;
+}
+.card-style-2{
+background-color:#F2F6FE;
+padding: 0 5px;
+border-radius:16px ;
+}
+.card-style-3{
+    background-color:#FFFDF2 ;
+    padding: 0 5px;
+    border-radius:16px ;
+}
+
+/* next-target style */
+.next-heading{
+    text-align: center;
+    
+   
+}
+.next-descripton{
+    width: 912px;
+    margin: 0 auto;
+    padding: 24px 0px;
+
+}
+.current-target{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+
+   
+}
+.target{
+    border: 1px solid black;
+    border-radius: 16px;
+    gap:30px;
+   display: flex;
+  
+}
+.target-descripton{
+    padding: 30px;
+    margin: 0 auto;
+}
+.target-descripton a{
+   
+
+}
+
+
+
+/* support-footer style */
+
+.support{
+  
+    border-radius: 16px;
+   
+}
+.support-heading{
+    text-align: center;
+}
+.support-description{
+    width: 912px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+.input-feld{
+   text-align: center;
+   padding: 20px;
+  text-align: top center;
+  
+}
+.input-feld input{
+   text-align: center;
+   padding: 20px;
+   border: 2px solid beige;
+   border-radius: 16px;
+   font-size: 20px;
+ 
+}
+.support-submit{
+    border-radius: 10px;
+    font-size: 20px;
+    padding:15px ;
+    border: 2px solid beige;
+}
+
+.support{
+    background-image: linear-gradient(
+        0deg,
+        rgb(16, 16, 16) -19.5%,
+        rgba(16, 16, 16, 0) 100%
+      ), url(../assets/handshake.jpg);
+    /* height: 413px; */
+    background-size: cover;
+    /* background-repeat:; */
+    
+
+}
+.footer-container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+ 
+.icon-add{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px;
+    font-size: 30px;
+    margin-top: 50px;
+    background-color: #C5C2C2;
+}
+.icon{
+    font-size: 50px;
+   color: #00A2FF;
+}
